@@ -1,0 +1,31 @@
+Removed Pin From Net: NetName=Net*_2 Pin=COT-1
+Removed Pin From Net: NetName=Net1_2 Pin=COT-2
+Removed Pin From Net: NetName=Net4_2 Pin=COT-3
+Removed Pin From Net: NetName=Net7_2 Pin=COT-4
+Removed Pin From Net: NetName=Net0_2 Pin=COT-5
+Removed Pin From Net: NetName=Net(_1 Pin=HANG-1
+Removed Pin From Net: NetName=Net3_1 Pin=HANG-2
+Removed Pin From Net: NetName=Net0_1 Pin=HANG-3
+Removed Pin From Net: NetName=Net1_1 Pin=HANG-4
+Removed Member From Class: ClassName=keypad4x5 Member=COT
+Removed Member From Class: ClassName=keypad4x5 Member=HANG
+Added Component: Designator=JP?(JP4)
+Add component (AddParameter): Name = "Value"; Value = "JP4"; VariantName = "[No Variations]"
+Added Component: Designator=JP?(JP5)
+Add component (AddParameter): Name = "Value"; Value = "JP5"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=Net0_2 Pin=JP?-1
+Added Pin To Net: NetName=Net7_2 Pin=JP?-2
+Added Pin To Net: NetName=Net4_2 Pin=JP?-3
+Added Pin To Net: NetName=Net1_2 Pin=JP?-4
+Added Pin To Net: NetName=Net*_2 Pin=JP?-5
+Change Net Name : Old Net Name=Net0_1 New Net Name=R2
+Change Net Name : Old Net Name=Net0_2 New Net Name=C1
+Change Net Name : Old Net Name=Net1_1 New Net Name=R1
+Change Net Name : Old Net Name=Net1_2 New Net Name=C4
+Change Net Name : Old Net Name=Net3_1 New Net Name=R3
+Change Net Name : Old Net Name=Net4_2 New Net Name=C3
+Change Net Name : Old Net Name=Net7_2 New Net Name=C2
+Change Net Name : Old Net Name=Net(_1 New Net Name=R4
+Change Net Name : Old Net Name=Net*_2 New Net Name=C5
+Added Member To Class: ClassName=keypad4x5 Member=Component JP? JP4 PIN
+Added Member To Class: ClassName=keypad4x5 Member=Component JP? JP5 PIN
